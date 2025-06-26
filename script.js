@@ -9,7 +9,7 @@ const getInputValue = () => {
     const billValue = Number(document.getElementById('bill-input').value) || 0
     const peopleInput = document.getElementById('people-input')
 
-    let peopleValue = Number(peopleInput.value)
+    const peopleValue = Number(peopleInput.value)
     if (!peopleValue || peopleValue < 0 || billValue < 0) {
         
         valid.classList.remove('hide')
