@@ -37,7 +37,7 @@
     background-color: var(--White);
     margin: 1rem;
     padding: 2.5rem;
-    border-radius: 1rem;
+    border-radius: 2rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
