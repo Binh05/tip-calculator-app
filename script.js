@@ -9,8 +9,6 @@ const getInputValue = () => {
     const billValue = Number(document.getElementById('bill-input').value) || 0
     const peopleInput = document.getElementById('people-input')
 
-    resetBtn.classList.add('reset-focus')
-
     let peopleValue = Number(peopleInput.value)
     if (!peopleValue || peopleValue < 0 || billValue < 0) {
         
@@ -20,6 +18,7 @@ const getInputValue = () => {
         return null
     }
 
+    resetBtn.classList.add('reset-focus')
     valid.classList.add('hide')
     peopleInput.classList.remove('valid')
 
